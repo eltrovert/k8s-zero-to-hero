@@ -1,4 +1,4 @@
-![alt text](./kubernetes-icon.png?raw=true)
+![alt text](./kubernetes-icon.png?raw=true){:height="36px" width="36px"}.
 # Kubernetes Zero to Hero Projects
 
 # Introduction

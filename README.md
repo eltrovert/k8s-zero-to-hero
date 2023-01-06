@@ -1,6 +1,4 @@
-<img src="./kubernetes-icon.png" width="50" />
-
-# Kubernetes Zero to Hero Projects
+<img src="./kubernetes-icon.png" width="50" /> # Kubernetes Zero to Hero Projects
 
 # Introduction
 

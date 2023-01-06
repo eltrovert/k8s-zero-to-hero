@@ -1,4 +1,4 @@
-![alt text](./kubernetes-icon.png?raw=true width=25)
+![alt text](./kubernetes-icon.png | width=25)
 # Kubernetes Zero to Hero Projects
 
 # Introduction

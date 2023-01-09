@@ -1,0 +1,45 @@
+# Kubernetes Terminology
+
+Here is a list of common terms used in the Kubernetes ecosystem, along with brief definitions:
+
+- **Cluster**: A group of nodes (physical or virtual machines) that are used to run containerized applications.
+- **Node**: A physical or virtual machine that runs containerized applications in a Kubernetes cluster.
+- **Pod**: The smallest deployable unit in Kubernetes. A pod is a logical host for one or more containers, and all containers in a pod run on the same node.
+- **Container**: A lightweight, standalone, and executable package that includes everything needed to run an application (code, libraries, dependencies, runtime, etc.).
+- **Deployment**: A way to manage the desired state of a set of replicas (pods) of an application.
+- **Service**: A way to expose a set of replicas (pods) of an application as a network service.
+- **Ingress**: A way to expose a service to external traffic.
+- **Volume**: A way to persist data in a container.
+- **Namespace**: A way to divide cluster resources between multiple users.
+- **Replication controller**: A legacy resource that has been replaced by deployments in newer versions of Kubernetes. A replication controller ensures that a specified number of replicas of a pod are always running.
+- **Replica set**: A resource that has similar functionality to a replication controller, but with more advanced features and a different syntax.
+- **Stateful set**: A resource used to manage stateful applications, such as databases or message brokers. It ensures that each pod in the set has a unique identity and stable storage.
+- **Daemon set**: A resource used to ensure that a copy of a pod is running on each node in the cluster.
+- **Job**: A resource used to run a specific task to completion, such as batch processing or data import.
+- **Cron job**: A resource used to run a task on a schedule, such as daily backups or weekly reports.
+- **Config map**: A resource used to store configuration data as key-value pairs.
+- **Secret**: A resource used to store sensitive data, such as passwords or certificates, in an encrypted and secure way.
+- **Persistent volume**: A resource used to provide access to external storage systems (e.g. network file systems, block storage, etc.).
+- **Persistent volume claim**: A resource used to request a specific type of persistent volume for a pod.
+- **Storage class**: A resource used to define the characteristics and provisioning options of persistent volumes.
+- **Custom resource definition**: A resource used to define custom resources, which are extensions of the Kubernetes API.
+- **Kubectl**: The command-line tool used to communicate with a Kubernetes cluster and to manage its resources.
+- **Master node**: In a typical Kubernetes deployment, the cluster consists of one or more worker nodes and a single master node. The master node runs the control plane components (e.g. etcd, kube-apiserver, kube-scheduler, etc.), which are responsible for managing and orchestrating the worker nodes. The worker nodes run the workloads and are managed by the control plane. The master node is usually not used to run application workloads and is typically scaled differently from the worker nodes.
+- **Kubernetes API**: The primary interface for interacting with a Kubernetes cluster. It is a RESTful API that is exposed by the kube-apiserver component on the master node, and it is used to create, update, and delete resources in the cluster.
+- **Kubelet**: A daemon that runs on each node and is responsible for managing the pods and containers on the node. It communicates with the control plane and makes sure that the desired state of the pods is maintained.
+- **Kubeadm**: A tool that simplifies the process of creating and bootstrapping a Kubernetes cluster. It can be used to set up a single-node cluster for testing or to create a multi-node cluster for production.
+- **Docker**: A container runtime that is commonly used with Kubernetes. It is responsible for running and managing containers on a host.
+- **containerd**: An alternative container runtime that is supported by Kubernetes. It is designed to be lightweight and modular, and it is used as the default runtime in some cloud environments.
+- **Docker Compose**: A tool for defining and running multi-container applications using a YAML file. It can be used to test and debug applications locally, and it can be used to generate Kubernetes resources for deployment.
+- **Helm**: A package manager for Kubernetes that makes it easier to deploy, upgrade, and manage applications in a cluster. It uses "charts" to define the dependencies and configuration of an application, and it uses a templating engine to generate the required resources.
+- **Ansible**: A configuration management and automation tool that can be used to deploy and manage Kubernetes clusters and applications. It uses playbooks and roles to describe the desired state of the infrastructure, and it can be used to automate the provisioning, configuration, and deployment of resources in a cluster.
+- **Terraform**: An infrastructure-as-code tool that can be used to automate the provisioning and management of resources in a Kubernetes cluster. It uses HashiCorp Configuration Language (HCL) to define the infrastructure, and it can be used to deploy resources across multiple cloud providers and on-premises environments.
+- **Kubeflow**: An open-source platform for machine learning on Kubernetes. It provides a set of tools and frameworks for training, deploying, and managing machine learning models in a cluster, and it integrates with popular tools such as TensorFlow, PyTorch, and scikit-learn.
+- **Istio**: An open-source service mesh that adds networking and security features to a Kubernetes cluster. It provides load balancing, traffic management, observability, and security for microservices, and it integrates with popular tools such as Envoy, Prometheus, and Jaeger.
+- **Kops**: A tool for creating and managing production-grade Kubernetes clusters on AWS. It uses CloudFormation templates to define the infrastructure, and it can be used to set up high-availability clusters with multiple master nodes and multiple availability zones.
+- **Minikube**: A tool for running a single-node Kubernetes cluster locally for testing and development purposes. It uses a virtual machine (e.g. VirtualBox, KVM, etc.) to host the cluster, and it is useful for testing applications and learning about Kubernetes.
+- **Microk8s**: A lightweight and easy-to-install distribution of Kubernetes that runs on a single node. It is designed for development and testing, and it can be used to run applications on a laptop or on a Raspberry Pi.
+- **GKE**: The managed Kubernetes service offered by Google Cloud. It allows users to create and manage Kubernetes clusters in the cloud, and it provides additional features such as automatic upgrades, automatic scaling, and integration with other Google Cloud services.
+- **EKS**: The managed Kubernetes service offered by AWS. It allows users to create and manage Kubernetes clusters in the cloud, and it provides additional features such as integration with other AWS services, security and compliance, and scalability.
+- **AKS**: The managed Kubernetes service offered by Azure. It allows users to create and manage Kubernetes clusters in the cloud, and it provides additional features such as integration with other Azure services, security and compliance, and scalability.
+- **Kubernetes-as-a-Service (KaaS)**: A term used to describe managed Kubernetes offerings from cloud providers or other vendors. These offerings provide a fully managed and scalable platform for running Kubernetes clusters, and they typically include features such as automatic upgrades, automatic scaling, and integration with other cloud services.

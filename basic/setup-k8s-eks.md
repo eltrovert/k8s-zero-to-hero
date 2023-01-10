@@ -71,5 +71,3 @@ aws cloudformation create-stack --stack-name STACK_NAME --template-body FILE://C
 Replace **`STACK_NAME`** with the desired name for your stack and **`CONFIG_FILE`** with the path to the configuration file.
 
 The process of creating the stack may take several minutes. Once the stack is created, you can view it in the AWS console by clicking on the "CloudFormation" menu item in the "Management Tools" section.
-
-I hope these instructions were helpful in setting up a Kubernetes cluster on AWS using the console, shell, and CloudFormation. If you have any questions or need further assistance, please don't hesitate to ask.

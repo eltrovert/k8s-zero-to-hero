@@ -1,4 +1,4 @@
-# Setup Kubernetes Cluster On AWS Using EKS (Elastic Container Service)
+# Setup Kubernetes Cluster On AWS Using EKS (Elastic Kubernetes Service)
 
 In this article, we will go over the steps for setting up a Kubernetes cluster on Amazon Web Services (AWS) using the console, shell, and CloudFormation.
 

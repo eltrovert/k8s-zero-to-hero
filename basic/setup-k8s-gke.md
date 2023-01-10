@@ -69,7 +69,3 @@ gcloud deployment-manager deployments create DEPLOYMENT_NAME --config=CONFIG_FIL
 Replace **`DEPLOYMENT_NAME`** with the desired name for your deployment and **`CONFIG_FILE`** with the path to the configuration file.
 
 The process of creating the deployment may take several minutes. Once the deployment is created, you can view it in the GCP console by clicking on the "Deployment Manager" menu item in the Navigation menu.
-
-I hope these instructions were helpful in setting up a Kubernetes cluster on GCP using Deployment Manager. If you have any questions or need further assistance, please don't hesitate to ask.
-
-[data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2730%27%20height=%2730%27/%3e](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2730%27%20height=%2730%27/%3e)

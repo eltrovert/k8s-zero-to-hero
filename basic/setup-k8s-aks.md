@@ -101,5 +101,3 @@ To get the kubectl context for an Azure Kubernetes Service (AKS) cluster, you wi
     
 
 This will update your kubectl configuration with the information needed to access your AKS cluster. You should now be able to use kubectl to communicate with your AKS cluster.
-
-I hope these instructions were helpful in getting the kubectl context for an AKS cluster. If you have any questions or need further assistance, please don't hesitate to ask.

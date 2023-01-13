@@ -1,4 +1,4 @@
-<img src="./Kubernetes_Logo_headpic.png" width="300" /> 
+<img src="./Kubernetes_Logo_headpic.png" width="800" /> 
 
 # Kubernetes Zero to Hero Projects
 

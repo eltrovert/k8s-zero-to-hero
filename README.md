@@ -1,62 +1,173 @@
 <img src="./Kubernetes_Logo_headpic.png" width="800" /> 
 
-# Kubernetes Zero to Hero Projects
+# Kubernetes Zero to Hero Party
 
-# Repository Introduction
+# Welcome to the Kubernetes Repo-Story
 
-This repository is a collection of Kubernetes projects that demonstrate how to use Kubernetes to deploy and manage applications in a multi-cloud infrastructure. The projects within this repository range from basic to advanced, making it a valuable resource for those looking to learn about Kubernetes from scratch, hence the repository's name "Zero to Hero." Some of the projects within this repository are designed to reflect real-world scenarios, providing a great opportunity for hands-on learning and experimentation with Kubernetes.
+<aside>
+🃏 Where it’s more like a content from a story teller than an IT Architect, haha. Sorry not sorry.
 
-Not only is this repository a great resource for learning about Kubernetes, it is also open for correction and contribution. If you see any errors or have suggestions for improvement, I welcome your input. The background of this repository is my desire to give back to the community and help others learn about Kubernetes. Whether you are a seasoned Kubernetes user or just starting out, this repository has something to offer for everyone looking to gain practical experience with Kubernetes and contribute to its development."
+</aside>
 
-# Prerequisites & Tech Stack
+Greetings, fellow Kubernetes aficionado! Are you tired of feeling lost in the vast sea of Kubernetes information out there? Well, I, KubeGeek, have some exciting news for you. I have scoured the internet and hand-picked the most comprehensive collection of Kubernetes projects that will take you from a Kubernetes newbie to a seasoned pro in no time.
 
-Each project has its own set of prerequisites & tech stack explain in README file in each of the projects directory. However, in general you will need to setup the following tech stack and prerequisites:
+This repository, cleverly named "Zero to Hero," is jam-packed with projects that range from the basics to the advanced. Whether you're a developer looking to deploy your first application on a cluster, or a DevOps engineer looking to expand your Kubernetes skills, this repository has something for everyone.
 
-- A Workstation: To complete the project scenarios and manage the Kubernetes resources, you will need to have a workstation with `kubectl` installed. A personal laptop or PC is recommended, but not required. You can also use a virtual machine, tablet, phone, or any other device that allows you to connect to the Kubernetes cluster using `kubectl`. The installation process for `kubectl` will be explained in detail as one of the basic projects.
-- A Kubernetes Cluster: In order to deploy and manage your applications, you will need to set up a Kubernetes cluster. A Kubernetes cluster is a group of machines, called nodes, that are used to run containerized applications. These nodes are connected to a shared network and are able to communicate with each other in order to facilitate the deployment and scaling of applications. You have the option to set up a Kubernetes cluster through a cloud provider, or you can use a tool such as Minikube for local development on your own machine. Either way, having a Kubernetes cluster is essential for utilizing the powerful features and capabilities of Kubernetes in your application development and deployment process.
-In addition to the projects included in this repository, detailed instructions for installing and setting up a Kubernetes cluster will also be available as a basic project. These instructions will provide step-by-step guidance to ensure that you are able to successfully set up and configure your own Kubernetes cluster, whether in the cloud or on a local machine.
-- An Application Docker Image: In order to deploy your application on a Kubernetes cluster, you will need to prepare a Docker image that contains your working application and all of its dependencies. This can be done by creating a Dockerfile and packaging your own application, or by using a publicly available application from DockerHub. For example, there are many open-source web applications with corresponding Docker images available on DockerHub, such as WordPress or Drupal. These images can be used as a starting point for your own application, or you can use them as-is if they meet your needs.
+But I didn't just stop at compiling a bunch of projects, oh no. I made sure to include real-world scenarios, so you can not only learn about Kubernetes, but also get your hands dirty and experiment with it. Trust me, there's nothing like deploying a real application on a cluster to solidify your understanding.
 
-# How to Use the Projects
+And the best part? This repository is open for contribution and correction. So if you spot any errors or have suggestions for improvement, don't be shy to speak up. My goal with this repository is to give back to the community and help others learn about Kubernetes, whether you're just starting out or a seasoned pro. I've also included some fun anecdotes and real-life examples to keep things interesting and relatable. So come join me on this Kubernetes journey, and let's make it a fun and fulfilling experience for everyone!
 
-It is highly recommended that you start with the basic projects and work your way up to the intermediate and advanced ones. This will ensure that you have a solid foundation and can properly understand and make use of the more complex concepts. You have the option to either clone this entire project onto your local machine, allowing you to have all of the necessary files for hands-on practice at your fingertips, or you can choose to copy individual files as needed. In addition to following the instructions provided in the README file for each project, you may also find it helpful to refer to the articles published at geekinthecloud.xyz for more detailed steps and explanations. Some of the projects also have video references available for further guidance.
+# How to Join The Party?
 
-If you would like to publish or replicate this repository, we ask that you please give proper credit and mention this repository. It is always appreciated when others are able to learn and benefit from the hard work that has been put into creating these resources. Thank you for considering this request
+Kubernetes enthusiasts! Are you ready to join the party and learn all about Kubernetes?
 
-# Projects List
+First things first, before you join the party, it's important to have the right tools and knowledge. It's highly recommended that you start with the basic projects and work your way up to the intermediate and advanced ones. This will ensure that you have a solid foundation and can properly understand and make use of the more complex concepts.
 
-## Basic Level Project
+Once you're ready to start, you have the option to either clone this entire project onto your local machine, allowing you to have all of the necessary files for hands-on practice at your fingertips, or you can choose to copy individual files as needed. In addition to following the instructions provided in the README file for each project, you may also find it helpful to refer to the articles published at geekinthecloud.xyz for more detailed steps and explanations. Some of the projects also have video references available for further guidance.
 
-Before you can deploy an application to a Kubernetes cluster, you will need to install and set up the cluster itself. This can be done using a cloud provider or a tool such as Minikube for local development. The installation and setup process will vary depending on your chosen method, but it generally involves installing the necessary software and configuring the cluster to your specifications. 
+And just like a party, it's always more fun when you bring your friends along. If you would like to publish or replicate this repository, we ask that you please give proper credit and mention this repository. It's always appreciated when others are able to learn and benefit from the hard work that has been put into creating these resources.
 
-Once the cluster is up and running, you can begin deploying applications to it. A common task in Kubernetes is to deploy a simple application, such as a web server, to a cluster. One way to do this is to create a Deployment resource, which manages a ReplicaSet of replicas of the application. The ReplicaSet ensures that a specified number of replicas of the application are running at any given time. 
+So, grab your party hat and let's get started! With the right tools and knowledge, you'll be a Kubernetes pro in no time. And don't forget to have fun and enjoy the party!
 
-To create the Deployment, you will need to specify the application's Docker image, the number of replicas you want to run, and any other relevant details such as environment variables or resource limits. You can then use the kubectl command-line tool to create and manage the Deployment.
-Once the Deployment is up and running, you can use a Service resource to expose the application to the outside world. A Service defines a policy by which a set of replicas can be accessed, and it can be accessed using a stable IP address or hostname.
+# The Party Checklist:
 
-This is just one example of a basic Kubernetes project, but it illustrates the power and flexibility of the platform. With Kubernetes, you can deploy and manage applications at scale, with the ability to easily roll out updates and handle failures. Whether you are deploying a simple web server or a complex microservices architecture, Kubernetes has the tools and features you need to succeed.
+<aside>
+💡 What you need to know before taking off
 
-A basic level Kubernetes project would typically involve learning how to use the **`kubectl`** command-line tool to manage Kubernetes resources. **`kubectl`** is the primary way to interact with a Kubernetes cluster, and it allows you to perform tasks such as deploying applications, inspecting cluster resources, and rolling out new updates.
+</aside>
 
-### Environment Preparation
+As a Kubernetes geek, I know that setting up the tech stack and prerequisites for a project can be a bit overwhelming, but don't worry, I'm here to make it as easy as possible for you.
 
-- [Setup Kubernetes Cluster On Local Machine With Minikube](./basic/setup-k8s-minikube.md)
-- [Setup Kubernetes Cluster On Local Machine using Microk8s](./basic/setup-k8s-microk8s.md)
-- [Setup Kubernetes Cluster On GCP Using GKE (Google Kubernetes Engine)](./basic/setup-k8s-gke.md)
-- [Setup Kubernetes Cluster On AWS Using EKS (Elastic Container Service)](./basic/setup-k8s-eks.md)
-- [Setup Kubernetes Cluster On Azure AKS ( Azure Kubernetes Service)](./basic/setup-k8s-aks.md)
-- [Kubectl Installation](./basic/install-kubectl.md)
-- [Setup kubectl context to Connect to Kubernetes Cluster](./basic/setup-kubctl-context.md)
+## Kubernetes Cluster : The Party Ground
+
+> Where all the Kubernetes component would dance around.
+> 
+- First things first, you're going to need a workstation. Now, I know some of you might be thinking "But KubeGeek, I don't have a fancy computer!" Well, fear not my friend, because a personal laptop or PC is recommended, but not required. You can use a virtual machine, tablet, phone, or any other device that allows you to connect to the Kubernetes cluster using **`kubectl`**. The installation process for **`kubectl`** will be explained in detail as one of the Party Ground Preparation, so don't worry about that.
+- Next up, you're going to need a Kubernetes cluster. A Kubernetes cluster is like the backbone of your project, it's a group of machines, called nodes, that are used to run containerized applications. These nodes are connected to a shared network and are able to communicate with each other in order to facilitate the deployment and scaling of applications. You have the option to set up a Kubernetes cluster through a cloud provider, or you can use a tool such as Minikube for local development on your own machine. Either way, having a Kubernetes cluster is essential for utilizing the powerful features and capabilities of Kubernetes in your application development and deployment process. And don't worry, detailed instructions for installing and setting up a Kubernetes cluster will also be available as a basic project. These instructions will provide step-by-step guidance to ensure that you are able to successfully set up and configure your own Kubernetes cluster, whether in the cloud or on a local machine.
+
+### Party Ground Options
+
+Alright party people, before we can get the party started, we need to choose the perfect party ground, a battlefield for our party members if you will. And as a Kubernetes geek, I have some recommendations for you.
+
+- First up, we have the option of using a cloud provider for our party ground. This is a great option for those who want to have a larger party and don't want to worry about the logistics of setting up and maintaining the party ground themselves. Some popular cloud providers for hosting a Kubernetes party include AWS, Google Cloud, and Azure. Just make sure to read the fine print and choose the provider that best fits your party needs.
+- Next, we have the option of using a tool such as Minikube for a more intimate, local development party. Minikube is a great option for those who want to host a smaller party and have more control over the party ground setup. It is easy to set up and use and you can even do it on your own machine if you want to.
+- And last but not least, we have the option of using a bare-metal server for our party ground. This is a great option for those who want full control and flexibility over the party ground and don't mind getting their hands dirty with the setup process.
+
+No matter which option you choose, detailed instructions for setting up and configuring your party ground will be available in Party Ground Setup Instruction. These instructions will provide step-by-step guidance to ensure that your party ground is ready for the ultimate Kubernetes party. So, choose your battle ground wisely, and let's get this party started!
+
+### Party Ground Setup
+
+[Setup Kubernetes Cluster On Local Machine With Minikube](./basic/setup-k8s-minikube.md)
+
+[Setup Kubernetes Cluster On Local Machine using Microk8s](./basic/setup-k8s-microk8s.md)
+
+[Setup Kubernetes Cluster On GCP Using GKE (Google Kubernetes Engine)](./basic/setup-k8s-gke.md)
+
+[Setup Kubernetes Cluster On AWS Using EKS (Elastic Kubernetes Service)](./basic/setup-k8s-eks.md)
+
+[Setup Kubernetes Cluster On Azure AKS ( Azure Kubernetes Service)](./basic/setup-k8s-eks.md)
+
+[Setup Kubernetes Cluster The Hard Way (On-Premises)](#)
+
+[Setup Kubernetes Cluster on Hybrid Environment](#)
+
+## Docker Image: The Party Theme
+
+Just like a party theme, a Docker image is a set of resources that are themed around a specific idea or concept. It includes all the resources needed to create a specific party atmosphere, such as decorations, music, and games.
+
+A Docker image can be used to create a party atmosphere that is consistent and predictable, just like how a party theme does. It ensures that the resources that are needed for the party are available, and it guarantees that the resources will work in a consistent way.
+
+Here’s a list of available public docker image that we can use:
+
+1. Single-tier application:
+    - Nginx: **[https://hub.docker.com/_/nginx](https://hub.docker.com/_/nginx)**
+    - Redis: **[https://hub.docker.com/_/redis](https://hub.docker.com/_/redis)**
+    - MongoDB: **[https://hub.docker.com/_/mongo](https://hub.docker.com/_/mongo)**
+2. Multi-tier application:
+    - WordPress: **[https://hub.docker.com/_/wordpress](https://hub.docker.com/_/wordpress)**
+    - Magento: **[https://hub.docker.com/r/magento/magento](https://hub.docker.com/r/magento/magento)**
+    - LAMP stack: **[https://hub.docker.com/layers/bitnami/lamp/](https://hub.docker.com/layers/bitnami/lamp/)**
+
+## Kubectl : The Essential Party-Toolkit
+
+Kubectl is like the ultimate party toolkit for managing your Kubernetes cluster. Just as a party organizer has a set of tools to organize and manage the party, that tools would be `kubectl`. It has a set of commands to organize and manage your Kubernetes resources.
+
+With `kubectl`, you can create, update, and delete resources such as pods, services, and deployments, just like how a party organizer can create, update, and delete the party's menu, decorations, and entertainment. You can also use `kubectl` to check the status of your resources and troubleshoot any issues that may arise. `kubectl` also allows you to scale your resources.
+
+In short, kubectl is an essential tool for managing and maintaining your Kubernetes cluster, and it's a must-have tool for any Kubernetes party enthusiast. So, don't wait any longer and add kubectl to your Kubernetes toolkit today, and let the party begin!
+
+Now let’s get this Party-Toolkit ready!
+
+[Kubectl Installation](./basic/install-kubectl.md)
+
+[Setup kubectl context to Connect to Kubernetes Cluster](./basic/setup-kubectl-context.md)
+
+[Introduction to kubctl command](./basic/kubectl-command.md)
+
+# Inside The Party
+
+Welcome to the Kubernetes party ground! This is a place where all the magic happens, where different applications and services come together to create a seamless and enjoyable experience.
+
+Inside this party ground, you'll find different sections, each with their own unique role and purpose. Just like how a party ground would have different sections for music, socializing, and different type of foods, Kubernetes has different components and layers that work together to make the overall experience happen. 
+
+Here’s some activity I recommend at the start of the party
+
+## Explore the Party Ground Architecture
+
+In short, party ground are divides into two area, master nodes and worker nodes. the master nodes or control plane are like the party's main control center. The staff only building where all the important decisions are made, while the worker nodes are like the smaller rooms where the guests are having a good time. Together, they work to ensure that the party is running smoothly and that all the guests (or resources) are having a good time. 
+
+This is an example of how all the organizer, guest, and party participant are communicating.
+
+<img src="./k8s-architecture.png" width="1200" /> 
+
+Let’s talk to each of those component and resource in Kubernetes cluster
+
+### Control Plane: Staff Only Building
+
+<aside>
+🃏 Where all the party organizer doing their job. This is actually a private area. However, with me here, I will guide and introduce you to everyone inside.
+
+</aside>
+
+[Talk to kube-apiserver: Head of The Party Organizer](./basic/kube-apiserver.md)
+
+[Meet Controller Manager: The Party Organizer’s Manager](./basic/controller-manager.md)
+
+[Scheduler: The Party’s Attendant](./basic/scheduler.md)
+
+[Enter ETCD: The Database Room](./basic/etcd.md)
+
+### Worker Node: The Open Party Ground
+
+[Meet kubelet: The Party’s Helper](./basic/kubelet.md)
+
+
+# Join The Party
+
+Just like how a party starts with the basics and gradually becomes more advanced, learning Kubernetes follows the same pattern.
+
+Imagine, at the beginning of the party, you start off with small talk, getting to know the other guests and setting the mood. In Kubernetes, this would be like learning the basics of containers and container orchestration. As the party progresses, you move on to dancing and having more fun, in Kubernetes, this would be like learning more advanced concepts such as scaling and self-healing.
+
+By following this progression, you'll be able to fully understand and utilize the more advanced concepts, just as you would be able to fully enjoy and participate in the party as it progresses.
+
+## Basic Level Party (Newbie)
+
+At the basic level, you'll be introduced to the fundamentals of containers and container orchestration. This is like being introduced to the guests at the party and learning about their interests and background.
+
+You'll learn about containerization and how it allows for applications to be packaged and deployed in a consistent and portable manner. This is like learning about the different types of food and drinks that will be served at the party and how they're prepared.
+
+You'll also learn about container orchestration and how it allows for managing and scaling containerized applications. This is like learning about the entertainment and activities that will be provided at the party and how they're coordinated.
+
+By understanding the basics, you'll have a solid foundation for learning more advanced concepts and fully participating in the Kubernetes party. So don't hesitate, join the party and have fun learning the basics of containers and container orchestration.
 
 ### Basic Knowledge
-- [Kubernetes Terminology](./basic/terminologies.md)
-- [Brief Introduction of YAML](./basic/intro-to-yaml.md)
-- Introduction kubectl command
+
+[Kubernetes Terminology](./basic/terminologies.md)
+
+[Brief Introduction of YAML](./basic/yaml.md)
 
 ### Basic Kubernetes Resource
 
-- Exploring Cluster
-- Exploring Nodes
 - Exploring Namespace
 - Exploring Pod
 - Exploring Deployment
